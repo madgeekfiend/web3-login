@@ -4,9 +4,9 @@ This project was a learning experiment on how to connect users' web3 wallet. In 
 
 # Libraries used
 
-React version 18.1.0
-Typescript
-[@Solana](https://solana-labs.github.io/solana-web3.js/)
+* React version 18.1.0
+* Typescript
+* [@Solana](https://solana-labs.github.io/solana-web3.js/)
 
 # Gotchas
 
@@ -17,7 +17,7 @@ When using `create-react-app` to bootstrap a brand new React application, this w
 In order to resolve this without moving back to a previous version of react. Here are the steps to resolve:
 
 1. Install `react-app-rewired` use the command `npm install --save-dev react-app-rewired`
-2. Install missing dependencies
+2. Install missing dependencies for use with Polyfill substition
 ```
 npm install --save-dev crypto-browserify stream-browserify assert stream-http https-browserify os-browserify url buffer process
 ```
