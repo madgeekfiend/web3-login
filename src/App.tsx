@@ -1,6 +1,7 @@
 
 import React from 'react';
 import './App.css';
+import { AppProps, AppState } from './Props';
 
 class App extends React.Component<AppProps, AppState> {
   constructor(props: any) {

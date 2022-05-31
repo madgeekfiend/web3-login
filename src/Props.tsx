@@ -1,8 +1,8 @@
 
-type AppState = {
+export type AppState = {
     isLoggedIn: Boolean;
 }
 
-type AppProps = {
+export type AppProps = {
     loggedInText: String
 }
